@@ -10,6 +10,7 @@ background-image: url("../image/anand-thakur-y0dSeflqUWo-unsplash.jpg");
 background-position: bottom center;
 background-size: cover;
 height: 100vh;
+clip-path: polygon(0 1%, 100% 0, 100% 61%, 75% 100%, 25% 100%, 0 58%);  
 }
 .hero h1{
     color: white;
@@ -27,6 +28,7 @@ height: 100vh;
     background-color: blanchedalmond;
     padding: 30px;
     border: 5px solid black;
+    background:linear-gradient(pink,green);
 
 }
 .hei h2{
@@ -48,4 +50,28 @@ color:rgb(38, 0, 128);
 }
 .hei p .ho{
     background-color: rgb(169, 228, 19);
+}
+#na h1{
+    color: rgb(190, 24, 24);
+    font-size: 80px;
+    text-align: center;
+    font-weight: 900px;
+    margin-bottom: 30px;
+    font-family: cursive;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    border-bottom: 2px solid blue;
+}
+.cow{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  
+}
+.cow div{
+    width: 300px;
+}
+.cow img{
+    width: 100%;
 }
