@@ -1,3 +1,51 @@
-h3{
-    color: goldenrod;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+*{
+margin: 0;
+padding: 0;
+font-family: 'Lato', sans-serif;
+}
+
+.hero{
+background-image: url("../image/anand-thakur-y0dSeflqUWo-unsplash.jpg");
+background-position: bottom center;
+background-size: cover;
+height: 100vh;
+}
+.hero h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900px;
+    margin-top: 70px;
+    font-family: cursive;
+    word-spacing: 4px;
+    letter-spacing: 4px;
+}
+.hei,#na{
+    width: 80%;
+    margin:60px auto ;
+    background-color: blanchedalmond;
+    padding: 30px;
+    border: 5px solid black;
+
+}
+.hei h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid green;
+
+}
+.hei p{
+ font-size: 20px;
+ line-height: 2em;
+ text-align: justify;
+}
+
+.hei p span{
+font-size: 30px;
+color:rgb(38, 0, 128);
+}
+.hei p .ho{
+    background-color: rgb(169, 228, 19);
 }
