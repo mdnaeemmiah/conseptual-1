@@ -75,3 +75,11 @@ color:rgb(38, 0, 128);
 .cow img{
     width: 100%;
 }
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+  
+}
